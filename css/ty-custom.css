@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/*	Global Styles
+---------------------------------------------------------*/
+
+body {
+    background-color: #f7f7f7;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4rem;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 780px;
+    border: 2px #000000 solid;
+    box-shadow: 5px 5px 10px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.highlight {
+    background-color: #FBFB00;
+}
+
+.red {
+    color: #B30101;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+hr {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+strong,
+b {
+    font-weight: 600;
+}
+
+a {
+    color: #0000ff;
+}
+
+a:hover {
+    color: #00c;
+}
+
+.small {
+    font-size: 0.85rem;
+}
+
+.message-blue {
+    box-shadow: #2185d0;
+    background-color: rgb(223, 240, 255);
+    color: rgb(33, 133, 208);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+    min-height: 1em;
+    margin: 1em 0px;
+    background: #DFF0FF;
+    padding: 1em 1.5em;
+    line-height: 1.4285em;
+    color: rgba(0, 0, 0, 0.87);
+    transition: opacity 0.1s ease 0s, color 0.1s ease 0s, background 0.1s ease 0s, box-shadow 0.1s ease 0s, -webkit-box-shadow 0.1s ease 0s;
+    border-radius: 0.285714rem;
+    box-shadow: #2185d0 0px 0px 0px 1px inset, transparent 0px 0px 0px 0px;
+    text-align: left;
+}
+
+/*	Footer Styles
+---------------------------------------------------------*/
+
+.footer-text a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*	Responsive Styles
+---------------------------------------------------------*/
+
+@media screen and (max-width: 900px) {}
